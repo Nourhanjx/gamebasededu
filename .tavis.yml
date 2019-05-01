@@ -1,0 +1,11 @@
+language: python
+puthon:
+        - "2.7"
+        - "3.3"
+        - "3.4"
+cache: pip
+install:
+        - pip install -r reuqirements.txt
+script:
+        - py.test --cov-report term-missing --cov app -v
+
