@@ -20,4 +20,4 @@ six==1.11.0
 twilio==6.16.4
 urllib3==1.23
 virtualenv==16.5.0
-Werkzeug==0.15.2
+Werkzeug==0.15.3
